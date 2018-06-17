@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 
-const MyComponent = function() {
+const ClientApp = function() {
   return (
     <div>
       <h1>
@@ -10,4 +10,4 @@ const MyComponent = function() {
     </div>
   );
 };
-render(<MyComponent/>, document.getElementById("app"));
+render(<ClientApp/>, document.getElementById("app"));
